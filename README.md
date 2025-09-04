@@ -28,7 +28,7 @@ This project automates the test cases for [Automation Practice Website](https://
    git clone https://github.com/your-repo/ui_automation.git
    cd ui_automation
 
-2. Create a virtual environment::
+2. Create a virtual environment:
    python3 -m venv venv
    
 3. Activate the virtual environment:
