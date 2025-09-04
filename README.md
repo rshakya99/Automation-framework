@@ -32,10 +32,10 @@ This project automates the test cases for [Automation Practice Website](https://
 python3 -m venv venv
 
 3. Activate the virtual environment:
+**On Linux/Mac**
 source venv/bin/activate
-# On Linux/Mac
+**On Windows**
 venv\Scripts\activate  
-# On Windows
 
 4. Install dependencies:
 pip install -r requirements.txt
