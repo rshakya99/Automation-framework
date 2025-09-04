@@ -27,20 +27,23 @@ This project automates the test cases for [Automation Practice Website](https://
    ```bash
    git clone https://github.com/your-repo/ui_automation.git
    cd ui_automation
-2. Clone the repo:
-   ```bash
-   git clone https://github.com/your-repo/ui_automation.git
-   cd ui_automation
+
+2. Create a virtual environment::
+   python3 -m venv venv
    
-3. Clone the repo:
-   ```bash
-   git clone https://github.com/your-repo/ui_automation.git
-   cd ui_automation
+3. Activate the virtual environment:
+   source venv/bin/activate   # On Linux/Mac
+   venv\Scripts\activate      # On Windows
 
+4. Install dependencies:
+   pip install -r requirements.txt
 
+5. Run all tests with Allure reports:
+   pytest --alluredir=reports/allure-results
 
-   
-  
+6. Generate & view the Allure report:
+   allure serve reports/allure-results
+
    
 
 
