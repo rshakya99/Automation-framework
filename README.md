@@ -25,5 +25,5 @@ This project automates the test cases for [Automation Practice Website](https://
 ## 🚀 How to Run
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-repo/ui_automation.git
-   cd ui_automation
+   git clone https://github.com/rshakya99/Automation-framework.git
+   cd Automation-framework
