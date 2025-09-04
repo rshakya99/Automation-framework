@@ -23,27 +23,27 @@ This project automates the test cases for [Automation Practice Website](https://
 - **Negative Flows**: Invalid inputs, duplicate users, and validation errors
 
 # 🚀 How to Run
-1. Clone the repository
+1.Clone the repo:
 git clone https://github.com/rshakya99/Automation-framework.git
 cd Automation-framework
 
-2. Create a virtual environment
-python3 -m venv venv
+2. Create a virtual environment:
+   python3 -m venv venv
 
-3. Activate the virtual environment
-On Linux/Mac
-source venv/bin/activate
-On Windows
-venv\Scripts\activate
+3. Activate the virtual environment:
+   On Linux/Mac
+   source venv/bin/activate
+   On Windows
+   venv\Scripts\activate
 
-4. Install project dependencies
-pip install -r requirements.txt
+4. Install project dependencies:
+    pip install -r requirements.txt
 
-5. Run all tests with Allure report generation
-pytest --alluredir=reports/allure-results
+5. Run all tests with Allure report generation:
+   pytest --alluredir=reports/allure-results
 
-6. Generate & open the Allure report
-allure serve reports/allure-results
+6. Generate & open the Allure report:
+   allure serve reports/allure-results
 
 
 
