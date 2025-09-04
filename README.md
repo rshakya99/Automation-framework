@@ -5,8 +5,6 @@ This project automates the test cases for [Automation Practice Website](https://
 ## 📂 Features Covered
 1. **Cart Functionality**
    - Add and remove products from cart
-   - Verify product count and total
-   - Negative case: Checkout with empty cart
 
 2. **User Registration & Login**
    - New user registration
@@ -16,8 +14,7 @@ This project automates the test cases for [Automation Practice Website](https://
 3. **Address Management**
    - Add/Edit billing & shipping addresses
    - Verify saved addresses
-   - Negative cases: missing/invalid details
-
+   
 ## 🧪 Categories
 - **Positive Flows**: Successful cart, registration, login, and address actions
 - **Negative Flows**: Invalid inputs, duplicate users, and validation errors
