@@ -1,0 +1,7 @@
+#!/home/vvdn/Documents/API_Script/Demo_automation_framework/venv/bin/python3.11
+import sys
+from dotenv.__main__ import cli
+if __name__ == '__main__':
+    if sys.argv[0].endswith('.exe'):
+        sys.argv[0] = sys.argv[0][:-4]
+    sys.exit(cli())
