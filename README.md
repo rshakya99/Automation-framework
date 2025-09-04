@@ -27,10 +27,15 @@ This project automates the test cases for [Automation Practice Website](https://
    ```bash
    git clone https://github.com/your-repo/ui_automation.git
    cd ui_automation
-
-
-
-
+2. Clone the repo:
+   ```bash
+   git clone https://github.com/your-repo/ui_automation.git
+   cd ui_automation
+   
+3. Clone the repo:
+   ```bash
+   git clone https://github.com/your-repo/ui_automation.git
+   cd ui_automation
 
 
 
