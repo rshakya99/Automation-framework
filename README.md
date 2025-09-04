@@ -28,10 +28,11 @@ This project automates the test cases for [Automation Practice Website](https://
    git clone https://github.com/rshakya99/Automation-framework.git
    cd Automation-framework
    python3 -m venv venv
-  source venv/bin/activate
+   source venv/bin/activate
   pip install -r requirements.txt
   pytest --alluredir=reports/allure-results
   allure serve reports/allure-results
+  
    
 
 
